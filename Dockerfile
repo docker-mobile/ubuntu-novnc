@@ -1,8 +1,8 @@
 FROM ubuntu:18.04
-MAINTAINER uli.hitzel@gmail.com
+MAINTAINER arianabb.me@gmail.com
 EXPOSE 8080 5901
 ARG DEBIAN_FRONTEND=noninteractive
-ENV TZ=Asia/Singapore
+ENV TZ=Europe/France
 
 RUN apt-get update
 RUN apt-get install -y xfce4 xfce4-terminal
